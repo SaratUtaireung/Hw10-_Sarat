@@ -1,0 +1,86 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Sarpanch:wght@400;500;600;700;800&family=Single+Day&family=Zen+Dots&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: 'Single Day';
+    margin: 30px;
+    text-align:center;
+    background:#000000 ;
+}
+
+h1{
+    color: #ffeb0a;
+}
+
+h3{
+    color: #00ffcc;
+}
+ 
+.user-list p {
+    display: flex;
+    flex-direction: column;
+    max-width: 440px;
+    margin: auto;
+    padding: 18px;
+}
+
+.user-list p{
+    color: #000000;
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px 0;
+
+}
+
+.user-list :hover {
+    background-color: rgba(217, 198, 25, 0.853);
+}
+
+.post-info {
+    margin-top: 10px;
+}  
+
+.post {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.post h3 {
+    color: #333;
+}
+
+.post p {
+    color: #666;
+}
+
+.user-list li {
+    cursor: pointer;
+    align-items: center;
+    margin-bottom: 5px;
+    border: 1px solid #7a7a7a;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    transition: background-color 0.3s;
+}
+
+.user-list li span.name {
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.user-list li span.email {
+    color: #555;
+}
+
